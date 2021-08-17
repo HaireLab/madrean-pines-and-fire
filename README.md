@@ -15,6 +15,10 @@ Rainsford, Frederick W, Luke T Kelly, Steve W J Leonard, and Andrew F Bennett. 2
 
 See fires-pines-habitats.png for a first try at the layout of the graphs and other information that will comprise the conceptual models.
 
-all.islands.spp.fires.R: Use a random sample of a) predicted probabilities (5 species); and b) maximum dnbr (1985-2011) to visualize the relationship between these variables "by island."
+times.burned.hexbinplots.R: sample the times burned raster (1985-2011) at random point locations and plot using stat summaries in hexbins
 
-times.burned.hexbinplots.R: Use a random sample of times burned within fire perimeters to output visualizations of fire frequency "by island." 
+time.since.fire.hexbins.R: sample the fire perimeters (1985-2011) at random point locations and plot using stat summaries in hexbins
+
+dnbr.hexbins.R: sample the stacked dnbr images (1985-2011) at random point locations and plot using stat summaries in hexbins
+
+sdms.hexbinplots.R: sample the species distribution models for the five pines (terrain + ndvi) at random point locations and plot using stat summaries in hexbins
